@@ -44,9 +44,33 @@
   padding: 0;
   align-self: center;
 
+  position: relative;
+
   border-radius: 1rem;
 
   width: 100%;
+}
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21.75rem;
+  height: 350px;
+
+  position: absolute;
+  left: calc(50% - 175px);
+  top: calc(50% - 295px);
+
+  border-radius: 1rem;
+
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0;
+}
+.view > img {
+  position: inherit;
+}
+.active:hover {
+    opacity: 50%;
 }
 .card-text {
   display: flex;

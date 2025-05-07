@@ -7,6 +7,11 @@ export default function Card() {
         <div className="card-body">
           <div className="card-content">
             <img src="../src/assets/images/image-equilibrium.jpg" alt="" />
+            <div className="active">
+              <div className="view">
+                <img src="../src/assets/images/icon-view.svg" alt="" />
+              </div>
+            </div>
             <div className="card-text">
               <h2>
                 Equilibrium <span>#3429</span>
