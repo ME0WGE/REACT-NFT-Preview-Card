@@ -70,7 +70,8 @@
   position: inherit;
 }
 .active:hover {
-    opacity: 50%;
+  opacity: 50%;
+  cursor: pointer;
 }
 .card-text {
   display: flex;
@@ -91,6 +92,10 @@
 
   margin: 0;
   padding: 0;
+}
+.card-text > h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 .crypto {
   display: flex;
@@ -144,4 +149,8 @@
 }
 .card-copyright > p > span {
   color: hsl(0, 0%, 100%);
+}
+.card-copyright > p > span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
