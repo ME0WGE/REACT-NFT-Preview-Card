@@ -30,6 +30,13 @@
 
   background-color: hsl(216, 50%, 16%);
 }
+@media (max-width: 375px) {
+  .card-body {
+    width: 250px;
+    height: 100%;
+  }
+}
+
 /* Card content */
 .card-content {
   display: flex;
