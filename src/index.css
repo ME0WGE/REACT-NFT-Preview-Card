@@ -4,6 +4,7 @@ body {
   background-color: hsl(217, 54%, 11%);
 
   font-family: Outfit;
+  font-size: 18px;
 
   display: flex;
   justify-content: center;

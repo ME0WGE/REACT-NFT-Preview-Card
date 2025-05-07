@@ -7,9 +7,9 @@ export default function Card() {
         <div className="card-body">
           <div className="card-content">
             <img src="../src/assets/images/image-equilibrium.jpg" alt="" />
-            <h1>
+            <h2>
               Equilibrium <span>#3429</span>
-            </h1>
+            </h2>
             <p>Our Equilibrium collection promotes balance and calm </p>
             <div className="crypto">
               <div className="eth">

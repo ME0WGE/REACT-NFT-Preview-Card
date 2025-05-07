@@ -1,0 +1,67 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsl(216, 50%, 16%);
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.card-content > img {
+  width: 50%;
+  align-self: center;
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+}
+.card-content > p {
+  color: hsl(0, 0%, 50%);
+}
+.crypto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: hsl(178, 100%, 50%);
+}
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: hsl(0, 0%, 50%);
+}
+.card-copyright {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+.card-copyright > img {
+  width: 15%;
+
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.card-copyright > p {
+  color: hsl(0, 0%, 50%);
+}
+.card-copyright > p > span {
+  color: hsl(0, 0%, 100%);
+}
