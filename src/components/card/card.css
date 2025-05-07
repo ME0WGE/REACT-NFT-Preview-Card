@@ -2,6 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin: 0;
+  padding: 0;
 }
 .card-body {
   display: flex;
@@ -9,28 +12,62 @@
   justify-content: center;
   align-items: center;
 
+  margin: 0;
+  padding: 0;
+
+  width: 300px;
+  height: 100%;
+
+  padding: 1.5rem;
+
   background-color: hsl(216, 50%, 16%);
 }
 .card-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
 }
 .card-content > img {
-  width: 50%;
+  margin: 0;
+  padding: 0;
   align-self: center;
+
+  width: 100%;
 }
-h2 {
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  margin: 0;
+  padding: 0;
+}
+.card-text > h2 {
   color: hsl(0, 0%, 100%);
+
+  font-size: 1.5rem;
 }
-.card-content > p {
+.card-text > p {
   color: hsl(0, 0%, 50%);
+
+  margin: 0;
+  padding: 0;
 }
 .crypto {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+
+  font-size: 1rem;
+
+  /* gap: 5rem; */
+
+  width: 100%;
 }
 .eth {
   display: flex;
@@ -38,6 +75,10 @@ h2 {
   align-items: center;
 
   color: hsl(178, 100%, 50%);
+
+  gap: 0.5rem;
+
+  /* width: 100%; */
 }
 .time {
   display: flex;
@@ -45,16 +86,20 @@ h2 {
   align-items: center;
 
   color: hsl(0, 0%, 50%);
+
+  gap: 0.5rem;
 }
 .card-copyright {
   display: flex;
   justify-content: start;
   align-items: center;
 
+  gap: 1rem;
+
   border-top: 1px solid hsl(215, 32%, 27%);
 }
 .card-copyright > img {
-  width: 15%;
+  width: 10%;
 
   border: 1px solid white;
   border-radius: 50%;
