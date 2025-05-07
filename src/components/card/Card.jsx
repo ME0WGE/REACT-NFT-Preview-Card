@@ -3,15 +3,18 @@ import "./card.css";
 export default function Card() {
   return (
     <>
+      {/* Card container */}
       <div className="card">
+        {/* Card Body */}
         <div className="card-body">
+          {/* Card content */}
           <div className="card-content">
             <img src="../src/assets/images/image-equilibrium.jpg" alt="" />
-            <div className="active">
-              <div className="view">
-                <img src="../src/assets/images/icon-view.svg" alt="" />
-              </div>
+            {/* View container */}
+            <div className="view">
+              <img src="../src/assets/images/icon-view.svg" alt="" />
             </div>
+            {/* Card text */}
             <div className="card-text">
               <h2>
                 Equilibrium <span>#3429</span>
@@ -29,6 +32,7 @@ export default function Card() {
               </div>
             </div>
           </div>
+          {/* Card copyright */}
           <div className="card-copyright">
             <img src="../src/assets/images/image-avatar.png" alt="" />
             <p>
