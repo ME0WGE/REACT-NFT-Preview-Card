@@ -1,6 +1,14 @@
 import "./card.css";
 
 export default function Card() {
+  const imageSource = new URL(
+    `../../assets/images/image-equilibrium.jpg`,
+    import.meta.url
+  ).href;
+  const imageSource2 = new URL(
+    `../../assets/images/icon-view.svg`,
+    import.meta.url
+  ).href;
   return (
     <>
       {/* Card container */}
@@ -9,10 +17,11 @@ export default function Card() {
         <div className="card-body">
           {/* Card content */}
           <div className="card-content">
-            <img src="../src/assets/images/image-equilibrium.jpg" alt="" />
+            {/* <img src="../src/assets/images/image-equilibrium.jpg" alt="" /> */}
+            <img src={imageSource} alt="" />
             {/* View container */}
             <div className="view">
-              <img src="../src/assets/images/icon-view.svg" alt="" />
+              <img src={imageSource2} alt="" />
             </div>
             {/* Card text */}
             <div className="card-text">
