@@ -9,6 +9,10 @@ export default function Card() {
     `../../assets/images/icon-view.svg`,
     import.meta.url
   ).href;
+  const imageSource3 = new URL(
+    `../../assets/images/image-avatar.png`,
+    import.meta.url
+  ).href;
   return (
     <>
       {/* Card container */}
@@ -43,7 +47,7 @@ export default function Card() {
           </div>
           {/* Card copyright */}
           <div className="card-copyright">
-            <img src="../src/assets/images/image-avatar.png" alt="" />
+            <img src={imageSource3} alt="" />
             <p>
               Creation of <span>Jules Wyvern</span>
             </p>
